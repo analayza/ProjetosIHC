@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d1b34;
+    color: #fff;
+}
+
+.dashboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #b0bec5;
+}
+
+.despesas {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.header-despesas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.header-despesas h2 {
+    font-size: 24px;
+}
+
+.header-despesas p {
+    font-size: 18px;
+    color: #b0bec5;
+}
+
+.table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse; 
+    background-color: #1e293b;
+}
+.valor-subsidio {
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #5eead4; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+    margin-top: 10px; 
+}
+
+.pago-button {
+    background-color: #4caf50; 
+    border: none;
+    color: #fff;
+    font-size: 14px; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    width: 100px;
+}
+
+.pago-button:hover {
+    background-color: #45a049; 
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #334155; 
+    text-align: left; 
+    color: #b0bec5; 
+    background-color: #1e293b; 
+}
+
+.table th {
+    background-color: #1e293b; 
+}
+
+.table tr:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.subsidio {
+    background-color: #1e293b; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.subsidio h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.subsidio input {
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% - 22px); 
+}
+
+.subsidio button {
+    background-color: #2563eb;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.subsidio button:hover {
+    background-color: #1e40af;
+}
+
+.card {
+    margin-top: 20px;
+    display: none;
+}
+
+.card input {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.card button {
+    background-color: #2563eb;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #1e40af;
+}
+
+.add-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-button button {
+    background-color: #2563eb;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-button button:hover {
+    background-color: #1e40af;
+}
