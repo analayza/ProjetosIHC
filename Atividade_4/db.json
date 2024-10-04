@@ -1,21 +1,27 @@
 {
   "despesas": [
     {
-      "id": "097d",
-      "obrigacaoFinanceira": "Aluguel",
-      "valor": "300",
-      "diaVencimento": "23"
-    },
-    {
       "id": "e440",
       "obrigacaoFinanceira": "Remedio ",
       "valor": "100",
       "diaVencimento": "14"
+    },
+    {
+      "id": "1b35",
+      "obrigacaoFinanceira": "Aluguel",
+      "valor": "345",
+      "diaVencimento": "23"
+    },
+    {
+      "id": "a79c",
+      "obrigacaoFinanceira": "Cartão de Crédito",
+      "valor": "500",
+      "diaVencimento": "24"
     }
   ],
   "usuario": [
     {
-      "salario": 4400,
+      "salario": "0",
       "id": "4baf"
     }
   ]
